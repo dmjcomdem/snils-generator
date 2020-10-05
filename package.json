@@ -1,0 +1,48 @@
+{
+    "name": "snils-generator",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "styled-components": "^5.2.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "prebuild": "npm test",
+        "build": "npm run test && react-scripts build",
+        "test": "tsc && cross-env CI=true react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.5.0",
+        "@testing-library/user-event": "^7.2.1",
+        "@types/jest": "^24.9.1",
+        "@types/node": "^12.12.62",
+        "@types/react": "^16.9.49",
+        "@types/react-dom": "^16.9.8",
+        "@types/styled-components": "^5.1.3",
+        "@typescript-eslint/parser": "^4.3.0",
+        "cross-env": "^7.0.2",
+        "eslint-config-airbnb": "^18.2.0",
+        "eslint-plugin-import": "^2.22.1",
+        "react-scripts": "3.4.3",
+        "typescript": "^3.7.5"
+    }
+}
