@@ -10,7 +10,7 @@
     "scripts": {
         "start": "react-scripts start",
         "prebuild": "npm test",
-        "build": "npm run test && react-scripts build",
+        "build": "react-scripts build",
         "test": "tsc && cross-env CI=true react-scripts test --env=jsdom",
         "eject": "react-scripts eject"
     },
