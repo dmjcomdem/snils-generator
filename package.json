@@ -2,11 +2,15 @@
     "name": "snils-generator",
     "version": "0.1.0",
     "private": true,
-    "dependencies": {
-        "react": "^16.13.1",
-        "react-dom": "^16.13.1",
-        "styled-components": "^5.2.0"
-    },
+    "license": "MIT",
+    "description": "Генератор валидных номеров СНИЛС",
+    "author": "dmjcomdem",
+    "keywords": [
+        "react",
+        "typescript",
+        "styled-components",
+        "snils-generator"
+    ],
     "scripts": {
         "start": "react-scripts start",
         "prebuild": "npm test",
@@ -14,20 +18,10 @@
         "test": "tsc && cross-env CI=true react-scripts test --env=jsdom",
         "eject": "react-scripts eject"
     },
-    "eslintConfig": {
-        "extends": "react-app"
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
+    "dependencies": {
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "styled-components": "^5.2.0"
     },
     "devDependencies": {
         "@testing-library/jest-dom": "^4.2.4",
@@ -44,5 +38,20 @@
         "eslint-plugin-import": "^2.22.1",
         "react-scripts": "3.4.3",
         "typescript": "^3.7.5"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
     }
 }
